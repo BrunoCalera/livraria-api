@@ -9,6 +9,7 @@ namespace livraria_api.Mappings
         public LivroProfile()
         {
             CreateMap<LivroCreateDto, Livro>();
+            CreateMap<LivroUpdateDto, Livro>();
         }
     }
 }
